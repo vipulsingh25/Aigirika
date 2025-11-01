@@ -252,7 +252,7 @@ export default function Navbar() {
   <Image
     src="/logo.png" // <-- replace this path with your actual logo file in /public folder
     alt="Aigirika SustainEdge Pvt Ltd Logo"
-    width={50}     // adjust as needed
+    width={100}     // adjust as needed
     height={0}     // adjust as needed
     
   />
