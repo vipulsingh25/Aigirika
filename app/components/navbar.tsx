@@ -228,7 +228,7 @@ export default function Navbar() {
     <nav className="bg-white shadow-lg top-0 left-0 w-full z-50">
       <div className="max-w-7xl mx-auto px-6 sm:px-10 py-4 flex justify-between items-center">
         {/* Brand Logo */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, x: -10 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
@@ -238,7 +238,24 @@ export default function Navbar() {
           <span className="block text-sm ml-0.5 tracking-normal">
             SustainEdge Pvt Ltd
           </span>
-        </motion.div>
+        </motion.div> */}
+
+        {/* Brand Logo */}
+<motion.div
+  initial={{ opacity: 0, x: -10 }}
+  animate={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.5 }}
+  className="flex items-center hover:scale-[1.03] transition-transform duration-300 cursor-pointer"
+>
+  <Image
+    src="/logo.png" // <-- replace this path with your actual logo file in /public folder
+    alt="Aigirika SustainEdge Pvt Ltd Logo"
+    width={160}     // adjust as needed
+    height={50}     // adjust as needed
+    className="object-contain"
+  />
+</motion.div>
+
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8 text-gray-700 font-medium text-base">
