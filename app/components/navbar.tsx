@@ -188,6 +188,8 @@
 import { useState } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
+
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -252,7 +254,7 @@ export default function Navbar() {
     alt="Aigirika SustainEdge Pvt Ltd Logo"
     width={160}     // adjust as needed
     height={50}     // adjust as needed
-    className="object-contain"
+    
   />
 </motion.div>
 
