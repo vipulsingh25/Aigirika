@@ -208,23 +208,23 @@ export default function Navbar() {
   { name: "Contact", href: "#contact" },
 ];
 
-  // const menuVariants = {
-  //   hidden: {
-  //     opacity: 0,
-  //     y: -10,
-  //     transition: { duration: 0.3, ease: "easeInOut" },
-  //   },
-  //   visible: {
-  //     opacity: 1,
-  //     y: 0,
-  //     transition: { duration: 0.3, ease: "easeInOut" },
-  //   },
-  //   exit: {
-  //     opacity: 0,
-  //     y: -10,
-  //     transition: { duration: 0.2, ease: "easeInOut" },
-  //   },
-  // };
+  const menuVariants = {
+    hidden: {
+      opacity: 0,
+      y: -10,
+      transition: { duration: 0.3, ease: "easeInOut" },
+    },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.3, ease: "easeInOut" },
+    },
+    exit: {
+      opacity: 0,
+      y: -10,
+      transition: { duration: 0.2, ease: "easeInOut" },
+    },
+  };
 
   return (
     <nav className="bg-white shadow-lg top-0 left-0 w-full z-50">
