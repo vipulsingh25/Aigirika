@@ -250,9 +250,9 @@ export default function Navbar() {
   className="flex items-center hover:scale-[1.03] transition-transform duration-300 cursor-pointer"
 >
   <Image
-    src="/logo.png" // <-- replace this path with your actual logo file in /public folder
+    src="/Alogo.png" // <-- replace this path with your actual logo file in /public folder
     alt="Aigirika SustainEdge Pvt Ltd Logo"
-    width={100}     // adjust as needed
+    width={50}     // adjust as needed
     height={0}     // adjust as needed
     
   />
